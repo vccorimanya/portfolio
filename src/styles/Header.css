@@ -1,0 +1,60 @@
+
+
+@media screen and (min-width: 769px) {
+  .hero_spacer_top{
+    min-width: 48px;
+    min-height: 48px;
+  }
+  .logo{
+    margin-right: 32px;
+    display: flex;
+    font-size: 24px;
+    letter-spacing: -1px;
+    padding: 0px;
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(230deg 100% 67%);
+    font-family: "Sriracha","Wotfard",Futura,-apple-system,sans-serif;
+  }
+
+  .header_wrapper{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+  }
+  .header{
+    height: 60px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .header_left {
+    flex: 1 1 0%;
+    display: flex;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  .nav_item{
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .nav_item a{
+    position: relative;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: var(--font-weight-medium);
+    font-size: 1rem;
+  }
+}

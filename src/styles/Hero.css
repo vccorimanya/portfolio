@@ -1,0 +1,66 @@
+:root{
+  --color-homepage-light: hsl(200deg 100% 85% / 10%)
+  ----color-homepage-dark: hsl(200deg 100% 85% / 0%)
+}
+
+.hero_wrapper{
+  height: 400px;
+  position: relative;
+  z-index: 3;
+  background: linear-gradient( 0deg,hsl(200deg 100% 85% / 10%),hsl(200deg 100% 85% / 0%) );
+  transition: --color-homepage-light 350ms linear 0s, --color-homepage-dark 350ms linear 0s;
+}
+
+.hero_end_container{
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 90px;
+  transform: translateY(1px);
+  z-index: 3;
+}
+
+.hero_end_svg{
+  position: absolute;
+  left: -3%;
+  right: -3%;
+  bottom: 0px;
+  width: 106%;
+  min-width: 600px;
+  max-width: unset;
+}
+
+.hero_end_svg path {
+    fill: hsl(210deg 30% 8%);
+    transition: fill 350ms ease 0s;
+}
+
+.hero_text_wrapper{
+  display: flex;
+  justify-content: end;
+}
+
+.hero_text{
+  width: 408px;
+  height: 216px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero_text span{
+  font-size: 2rem;
+
+  font-weight: 700;
+}
+.hero_text h2{
+  font-size: 59px;
+
+}
+ .hero_text p{
+  font-size: 1.3rem;
+
+}

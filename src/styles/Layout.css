@@ -1,0 +1,4 @@
+.Layout{
+  background: var(--color-background);
+  transition: background 350ms ease 0s;
+}
