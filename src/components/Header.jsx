@@ -7,7 +7,7 @@ const Header = () => {
   return(
     <>
       <div size="48" className="hero_spacer_top"></div>
-      <div className="header_wrapper">
+      <div className="header_wrapper ">
         <div className="hader_container max_size_container">
           <header className="header">
             <div className="header_left">
@@ -16,12 +16,7 @@ const Header = () => {
                 <ul className="display_flex">
                   <li className="margin_10">
                     <div className="nav_item">
-                      <Link to={'/tutoriales'}>Tutoriales</Link>
-                    </div>
-                  </li>
-                  <li className="margin_10">
-                    <div className="nav_item">
-                      <Link to={'/proyectos'}>Proyectos</Link>
+                      <Link to={'/tutoriales'} id="tutorials">Tutoriales</Link>
                     </div>
                   </li>
                   <li className="margin_10">

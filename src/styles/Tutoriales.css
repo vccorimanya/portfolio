@@ -1,0 +1,18 @@
+.Tutoriales {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+      "last tutorials"
+      "last tutorials";
+  gap: 64px 96px;
+  padding-top: 64px;
+  background: hsl(210deg 30% 8%);
+}
+
+.header_wrapper{
+  z-index: 3;
+  background: hsl(210deg 30% 8%);
+}

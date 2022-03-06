@@ -1,0 +1,10 @@
+.Footer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 96px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: linear-gradient(0deg, hsl(200deg 100% 85% / 0%), hsl(200deg 100% 85% / 10%));
+}

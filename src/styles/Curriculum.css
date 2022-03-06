@@ -1,0 +1,101 @@
+.border_top_bott{
+  background: hsl(230deg 100% 67%);
+  padding: 1rem;
+  width: 13rem;
+  margin: 1.5rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: hsl(210deg, 25%, 96%);
+}
+
+.text_justify{
+  text-align: justify;
+}
+
+.margin_bottom_1{
+  margin-bottom: 1rem;
+}
+.margin_top_2{
+  margin-top: 2rem;
+}
+.curriculum_wrapper{
+  margin: 2rem  15rem 0 15rem;
+}
+
+.header_info span{
+  font-size: 2rem;
+}
+
+.margin_right_3{
+  margin-right: 3rem;
+}
+
+.bg_color{
+  background: hsl(38deg 100% 50% / 10%);
+}
+
+.contact_info{
+  position: relative;
+  padding: 24px 32px;
+  font-size: 17px;
+  margin-top: 48px;
+  margin-bottom: 64px;
+  border-left: 3px solid hsl(30deg 100% 50%);
+  border-radius: 6px 6px 6px 3px;
+  transition: background 350ms ease 0s;;
+}
+
+.contact_header{
+  position: absolute;
+  top: 18px;
+  transform: translate(calc(-50% - 1.5px), -50%);
+  padding: 8px;
+  background: hsl(212deg 22% 15%);
+  border-radius: 0 0 .5rem 0;
+  color: var(--color-alert);
+}
+.info_name{
+  font-size: 3rem;
+}
+.github{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+ .margin_top_2 p {
+ font-size: 1rem;
+ font-weight: 600;
+ margin-bottom: .5rem;
+}
+
+.info_section{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.presonal_profile{
+  display: flex;
+  align-items: center;
+}
+.presonal_profile p{
+  font-size: 1.3rem;
+  text-align: start;
+  max-width: 38rem;
+}
+
+.habilities{
+  margin-right: 3rem;
+  display: flex;
+}
+.education_info{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.education{
+  display: flex;
+}
+.education section{
+  margin-right: 3rem;
+}
