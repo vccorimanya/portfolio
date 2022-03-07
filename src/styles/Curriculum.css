@@ -1,6 +1,6 @@
 .border_top_bott{
   background: hsl(230deg 100% 67%);
-  padding: 1rem;
+  padding: .8rem;
   width: 13rem;
   margin: 1.5rem 0;
   border-radius: 0 0.5rem 0.5rem 0;
@@ -9,33 +9,13 @@
   color: hsl(210deg, 25%, 96%);
 }
 
-.text_justify{
-  text-align: justify;
-}
-
-.margin_bottom_1{
-  margin-bottom: 1rem;
-}
-.margin_top_2{
-  margin-top: 2rem;
-}
-.curriculum_wrapper{
-  margin: 2rem  15rem 0 15rem;
-}
-
-.header_info span{
-  font-size: 2rem;
-}
-
-.margin_right_3{
-  margin-right: 3rem;
-}
-
-.bg_color{
-  background: hsl(38deg 100% 50% / 10%);
+.education_info{
+  display: grid;
+  grid-template: 1fr  / 1fr ;
 }
 
 .contact_info{
+  background: hsl(38deg 100% 50% / 10%);
   position: relative;
   padding: 24px 32px;
   font-size: 17px;
@@ -46,6 +26,7 @@
   transition: background 350ms ease 0s;;
 }
 
+
 .contact_header{
   position: absolute;
   top: 18px;
@@ -55,12 +36,26 @@
   border-radius: 0 0 .5rem 0;
   color: var(--color-alert);
 }
-.info_name{
-  font-size: 3rem;
+
+.margin_top_2{
+  margin-top: 2rem;
 }
+
+.header_info span{
+  font-size: 1.4rem;
+}
+
+.margin_right_3{
+  margin-right: 3rem;
+}
+
+.info_name{
+  font-size: 1.8rem;
+}
+
 .github{
   color: #fff;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: 700;
 }
  .margin_top_2 p {
@@ -69,33 +64,68 @@
  margin-bottom: .5rem;
 }
 
-.info_section{
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}
-.presonal_profile{
-  display: flex;
-  align-items: center;
-}
-.presonal_profile p{
-  font-size: 1.3rem;
-  text-align: start;
-  max-width: 38rem;
+@media screen and (min-width: 425px) {
+
+   .text_justify{
+    text-align: justify;
+    max-width: 16rem;
+  }
+
 }
 
-.habilities{
-  margin-right: 3rem;
-  display: flex;
-}
-.education_info{
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-.education{
-  display: flex;
-}
-.education section{
-  margin-right: 3rem;
+
+@media screen and (min-width: 769px) {
+
+  .text_justify{
+    text-align: justify;
+  }
+
+  .margin_bottom_1{
+    margin-bottom: 1rem;
+  }
+
+  .curriculum_wrapper{
+    margin: 2rem  15rem 0 15rem;
+  }
+
+  .header_info span{
+    font-size: 2rem;
+  }
+
+  .info_name{
+    font-size: 3rem;
+  }
+
+   .margin_top_2 p {
+   font-size: 1rem;
+   font-weight: 600;
+   margin-bottom: .5rem;
+  }
+
+  .margin_right_3{
+    margin-right: 3rem;
+  }
+
+  .education_info{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  }
+
+
+
+  .info_section{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .presonal_profile{
+    display: flex;
+    align-items: center;
+  }
+  .presonal_profile p{
+    font-size: 1.3rem;
+    text-align: start;
+    max-width: 38rem;
+  }
+
 }

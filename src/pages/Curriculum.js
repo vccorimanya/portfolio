@@ -28,7 +28,6 @@ const Curriculum = () => {
           <p className="border_top_bott">Perfil Profesional</p>
         </div>
         <section className=" presonal_profile">
-
           <p>
             Soy egresado de la carrera de computación e informática, tengo experiencia
             desarrollando sitios web con html, css y javascript, utilizando frameworks como
@@ -36,11 +35,10 @@ const Curriculum = () => {
             e integré servicios REST con React y Angular.
           </p>
         </section>
-        <div className=" education_info">
-          <div className="education">
-            <section>
-              <p className="border_top_bott">Educación</p>
+        <div className="education_info">
+            <div className="education">
               <div className="margin_bottom_1">
+              <p className="border_top_bott">Educación</p>
                 <h4>CIBERTEC</h4>
                 <h5 className="margin_0">Computación e informática</h5>
                 <time>2015 - 2017</time>
@@ -50,10 +48,10 @@ const Curriculum = () => {
                 <h5 className="margin_0">Desarrollo Frontend con React</h5>
                 <time>2021 - Actualidad</time>
               </div>
-            </section>
-            <section>
-              <p className="border_top_bott">Experiencia</p>
+            </div>
+            <div className="experience">
               <div className="margin_bottom_1">
+              <p className="border_top_bott">Experiencia</p>
                 <h4 className="margin_0">Materia gris</h4>
                 <time>01-2018 - 04-2018</time>
                 <h6>4 meses </h6>
@@ -66,9 +64,9 @@ const Curriculum = () => {
                   API rest.
                 </p>
               </div>
-            </section>
-            <div className=" habilities">
-              <div className="margin_right_3">
+            </div>
+            <div className="habilities">
+              <div>
                 <h4 className="border_top_bott">Habilidades</h4>
                 <p>HTML</p>
                 <p>CSS</p>
@@ -80,23 +78,25 @@ const Curriculum = () => {
                 <p>NodeJS</p>
               </div>
             </div>
-          </div>
-        </div>
-        <div className=" habilities">
-          <div className="margin_right_3">
-            <h4 className="border_top_bott">Aptitudes</h4>
-            <p>Trabajo en equipo</p>
-            <p>Autodidacta</p>
+            <div className="aptituds">
+              <div>
+                <h4 className="border_top_bott">Aptitudes</h4>
+                <p>Trabajo en equipo</p>
+                <p>Autodidacta</p>
+              </div>
+            </div>
 
-          </div>
-          <div>
-            <h4 className="border_top_bott">Idiomas</h4>
-            <p>Español</p>
-            <p>Inglés: Intermedio</p>
-          </div>
+            <div className="languages">
+              <div>
+              <h4 className="border_top_bott">Idiomas</h4>
+              <p>Español</p>
+              <p>Inglés: Intermedio</p>
+              </div>
+            </div>
         </div>
       </div>
     </div>
+
   )
 }
 
