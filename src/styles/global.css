@@ -6,6 +6,19 @@
 .display_flex{
   display: flex;
 }
+
+.external_link{
+  display: block;
+  text-decoration: none;
+  color: hsl(210deg 25% 96%);
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.align_ic{
+  align-items: center;
+}
+
 .margin_10{
   margin: 5px;
 }

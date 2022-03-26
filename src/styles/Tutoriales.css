@@ -1,4 +1,3 @@
-
 .Tutoriales {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -11,6 +10,24 @@
   z-index: 3;
   background: hsl(210deg 30% 8%);
 }
+
+.arrow_container {
+  padding-right: 16px;
+  transform: translateX(0);
+  transition: 400ms;
+}
+
+.arrow_annimated{
+  color: hsl(230deg 100% 67%);
+  transform: translateX(10px);
+  transition: 400ms;
+}
+
+.list_wrapper{
+
+}
+
+
 
 @media screen and (min-width: 769px) {
   .Tutoriales {

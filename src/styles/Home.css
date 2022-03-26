@@ -49,9 +49,9 @@
     grid-area: projects;
   }
 
-  .heading_section_projects{
+  /* .heading_section_projects{
     font-size: calc(2.375rem);
-  }
+  } */
 
   .heading_small_title{
     font-weight: 700;

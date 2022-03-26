@@ -1,21 +1,37 @@
-import React from "react"
+import React, { useState } from "react"
+import { Link } from "react-router-dom"
 import '@styles/Tutoriales.css'
 import '@styles/global.css'
 
+
+const animated = {
+  paddingRight: '16px'
+}
+
 const Tutoriales = () => {
+
+  const [animation, setAnimation] = useState(false)
+
+  const translateX = () => {
+    setAnimation(true)
+  }
+  const reset = () => {
+    setAnimation(false)
+  }
+
+
+
   return(
     <div className="Tutoriales max_size_container">
       <section className="tutorials">
         <div>
           <div className="project_content">
             <article className="content">
-              <h3 className="heading_small_title">React shop</h3>
+              <h3 className="heading_small_title">Enviar formularios en React</h3>
               <p className="project_desc">
-                Este proyecto formó parte de la carrera de Frontend con React.JS en platzi
-                donde configuré mi entorno de desarrollo con wabpack y babel.
-                Creación de componentes, contenedores, rutas con react-router-dom v6,
-                usé hooks para manejar  los estados de la applicación también el despliege de
-                la aplicación con gh-pages.
+                Muy pronto ...
+                <br />
+                <br />
               </p>
             </article>
           </div>
@@ -23,32 +39,26 @@ const Tutoriales = () => {
       </section>
       <section className="tutorials">
         <div>
-          <div className="project_content">
+          <div className="">
             <article className="content">
-              <a className="project_link" href="https://vccorimanya.github.io/react-shop/index.html" target="_blank" rel="noopener noreferrer">
-                <h3 className="heading_small_title">Desplegar un proyecto de React en GitHub</h3>
-                <p className="project_desc">
-                  Tutorial para deplegar un proyecto hecho con react
-                </p>
-                <div className="small_spacer"></div>
-                <div className="project_info">
-                  Ver tutorial
-                </div>
-              </a>
-            </article>
-          </div>
-          <div className="project_content">
-            <article className="content">
-              <a className="project_link" href="https://vccorimanya.github.io/react-shop/index.html" target="_blank" rel="noopener noreferrer">
-                <h3 className="heading_small_title">Desplegar un proyecto de React en GitHub</h3>
-                <p className="project_desc">
-                  Tutorial para deplegar un proyecto hecho con react
-                </p>
-                <div className="small_spacer"></div>
-                <div className="project_info">
-                  Ver tutorial
-                </div>
-              </a>
+              <h2 className="heading_section_projects">Entradas recientes</h2>
+              <div>
+                <ul>
+                  <li className="list_wrapper display_flex align_ic">
+                    <span
+                    style={animated}
+                      className={animation ? 'arrow_annimated' : 'arrow_container'}>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </span>
+                      <div>
+                      <Link onMouseOver={translateX} onMouseLeave={reset} className="external_link" to={'/tutoriales'}>Enviar formularios en React</Link>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+              {/* <a className="project_link" href="#proy1" target="_blank" rel="noopener noreferrer">
+                <h3 className="heading_small_title">Enviar formularios en React</h3>
+              </a> */}
             </article>
           </div>
         </div>
