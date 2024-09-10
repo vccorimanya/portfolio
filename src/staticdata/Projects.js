@@ -1,12 +1,9 @@
 const Projects = [
   {
     id: 0,
-    title: 'React shop',
-    content: `Este proyecto formó parte de la carrera de Frontend con React.JS en platzi
-              en el cuál se desarrolló la página web de un e-comerce para mostrar sus productos
-              agregarlos al carrito de compras y ver el total del precio. Los productos
-              se traen desde una API.`,
-    project_url: "https://vccorimanya.github.io/react-shop/index.html"
+    title: 'React Shop',
+    content: `Maquetación del la página de productos de un e-comerce`,
+    project_url: "https://vccorimanya.github.io/yard-sale/products.html"
   },
   {
     id: 1,
@@ -27,19 +24,6 @@ const Projects = [
     title: 'CSS Animations',
     content: `Proyecto personal de animaciones con css y javascript`,
     project_url: "https://vccorimanya.github.io/foryou/"
-  },
-  {
-    id: 4,
-    title: 'React Shop',
-    content: `Maquetación del la página de productos de un e-comerce`,
-    project_url: "https://vccorimanya.github.io/yard-sale/products.html"
-  },
-
-  {
-    id: 5,
-    title: 'Portafolio de Elisa',
-    content: `Maquetación responsive de un portafolio`,
-    project_url: "https://vccorimanya.github.io/elisa-portfolio/"
   },
 ]
 
