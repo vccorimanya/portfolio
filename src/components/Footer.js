@@ -9,7 +9,7 @@ const Footer = () => {
         <Link className="logo" to={'/'}>Vccorimanya</Link>
         <span>
           <div>
-            © 2022 Victor Ccorimanya. Todos los derechos reservados.
+            Gracias por ver
           </div>
         </span>
       </div>
